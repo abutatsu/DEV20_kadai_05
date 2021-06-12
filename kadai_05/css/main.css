@@ -1,0 +1,147 @@
+body{
+    font-family: 'Sawarabi Mincho',
+    sans-serif;
+}
+
+.jyanken_form {
+    display: flex;
+    height: 100vh;
+    width: 120vmin;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff8dc;
+    color: #333;
+    margin: 0 auto;
+    
+}
+
+.charengername{
+    font-family: 'Sawarabi Mincho',
+    sans-serif;
+    font-weight: bold;
+    font-size: 3vmin;
+}
+
+
+
+.form-box {
+    font-size: 6vmin;
+    font-family: 'Reggae One',
+    cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4vmin;
+    font-family: 'Reggae One',
+    cursive;
+    
+}
+
+input[name^="playerHand"] {
+    width: 4vmin;
+    height: 4vmin;
+    position: relative;
+    top: 2px;
+}
+
+input[name^="item"] {
+    width: 3vmin;
+    height: 3vmin;
+    position: relative;
+    top: 2px;
+}
+
+.item{
+    font-size: 4vmin;
+    margin-bottom: 20px;
+}
+
+
+button {
+    margin-top: 5vmin;
+    width: 25vmin;
+    height: 8vmin;
+    font-size: 5vmin;
+    color: #333;
+    font-family: 'Reggae One',
+    cursive;
+}
+
+.result {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.resultmessege {
+    font-size: 5vmin;
+    font-family: 'Reggae One',
+    cursive;
+}
+
+img {
+    width: 35vmin;
+    height: 35vmin;
+}
+
+
+.index_top{
+    width: 80vmin;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.index_top img{
+    width: 80vmin;
+}
+
+.element_wrap {
+    text-align: left;
+    margin: 0 auto;
+    width: 30vmin;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+}
+
+p.result-word{
+    font-size: 8vmin;
+    font-family: 'Reggae One',
+    cursive;
+    color: #fa0000;
+}
+
+.username{
+    position: relative;
+    text-align: center;
+}
+
+.username img{
+    width: 120vmin;
+    height: auto;
+}
+
+.username p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Reggae One',
+    cursive;
+    font-size: 5vmin;
+    text-align: center;
+}
+
+.selecthand{
+    position: relative;
+    display: block;
+}
+
